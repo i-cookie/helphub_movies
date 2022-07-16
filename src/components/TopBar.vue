@@ -19,8 +19,7 @@ export default {
 <style scoped>
   .bar {
     background-color: blueviolet;
-    margin-top: 0;
-    line-height: 60px;
+    line-height: 50px;
   }
 
   .slogan {
@@ -34,22 +33,21 @@ export default {
   }
 
   .router-button {
-    padding: 10px;
+    padding: 13px;
+    padding-top: 9px;
     color: #fff;
     font-size: 18px;
     vertical-align: middle;
     cursor: pointer;
     text-decoration: none;
   }
-
   .router-button:hover {
     background-color: purple;
   }
-
   .active-button {
     background-color: orchid;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 
   .search {
