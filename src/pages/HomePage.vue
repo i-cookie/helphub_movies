@@ -1,10 +1,14 @@
 <template>
-  <h1 style="text-align: center">This is the home page</h1>
+  <MovieSwiper />
 </template>
 
 <script>
+import MovieSwiper from '../components/Home/MovieSwiper.vue'
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+  components: {
+    MovieSwiper
+  }
 }
 </script>
 

@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import TopBar from './components/TopBar.vue'
+import TopBar from './components/TopBar.vue';
 export default {
   name: 'App',
   components: {
